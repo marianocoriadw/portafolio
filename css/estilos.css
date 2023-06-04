@@ -7,6 +7,7 @@
 .index {
     background-color: #1e2326;
     top: 0;
+    text-decoration:none;
 }
 .index .headerHome {   
     position: fixed;
@@ -30,6 +31,7 @@ background-color:#1CB698;
     color: #1CB698;
     text-decoration:none;
     transition: .5s;
+
 }
 .index .headerHome nav .navbar .container-fluid .collapse .navbar-nav{
     margin-top: 0;
@@ -167,6 +169,7 @@ background-color:#1CB698;
 
 }
 .sobremi .sm-cont .intereses-personales .contenedor-intereses{
+    padding-top:15%;
     font-size: 20px;
     font-family: 'Righteous';
     display: flex;
@@ -179,8 +182,8 @@ background-color:#1CB698;
 .sobremi .sm-cont .intereses-personales .contenedor-intereses .intereses{
     display: flex;
     flex-direction: column;
-    width: 160px;
-    height: 160px;
+    width: 130px;
+    height: 130px;
     background-color: #252A2E;
     border-radius: 10px;
     margin: 0 15px 15px 0;
@@ -271,4 +274,30 @@ background-color:#1CB698;
    }
    
 }
+
+@media screen and (max-width:980px){
+    .sobremi .sm-cont .intereses-personales .contenedor-intereses .intereses{
+        height: 100px;
+        width: 100px;
+    }
+    .skills .contenedor-skills{
+        flex-direction: row;
+    }
+    .skills .contenedor-skills .contenedor-logo{
+        
+        height: 100px;
+        width: 100px;
+
+    }
+    .skills .contenedor-skills .contenedor-logo > strong{
+        width: 100%;
+        font-size: 12px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
 
