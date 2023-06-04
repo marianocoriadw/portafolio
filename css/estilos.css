@@ -251,7 +251,12 @@ background-color:#1CB698;
 
 @media screen and (max-width:980px){
     .sobremi .sm-cont .intereses-personales{
-           width: auto;
+        
+        width: auto;
+    }
+    .sobremi .sm-cont .intereses-personales .contenedor-intereses .intereses{
+        height: 100px;
+        width: 100px;
     }
     .sobremi .sm-cont .contenedor-sobremi{
         
@@ -266,16 +271,29 @@ background-color:#1CB698;
    }
    .skills .contenedor-skills{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: auto;
     margin: 15px;
    }
+   .skills .contenedor-skills .contenedor-logo{
+        
+    height: 100px;
+    width: 100px;
+
+}
+.skills .contenedor-skills .contenedor-logo > strong{
+    width: 100%;
+    font-size: 12px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
    
 }
 
-@media screen and (max-width:980px){
+@media screen and (max-width:400px){
     .sobremi .sm-cont .intereses-personales .contenedor-intereses .intereses{
         height: 100px;
         width: 100px;
@@ -289,14 +307,7 @@ background-color:#1CB698;
         width: 100px;
 
     }
-    .skills .contenedor-skills .contenedor-logo > strong{
-        width: 100%;
-        font-size: 12px;
-        padding: 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
+   
 
 }
 
