@@ -107,6 +107,7 @@ background-color:#1CB698;
     color: white;
     padding: 50px;
     text-align: center;
+   
 }
 .sobremi h2{
     font-family: 'Righteous';
@@ -119,11 +120,13 @@ background-color:#1CB698;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 20px;
+   
     
 }
 .sobremi .sm-cont .contenedor-sobremi{
     width: 45%;
-    margin: 15px;
+    margin:10px;
     padding: 10px;
     border: 5px solid #1CB698;
     border-radius: 20px;
@@ -137,9 +140,13 @@ background-color:#1CB698;
 .sobremi .sm-cont .contenedor-sobremi p span {
     color: #1CB698;
 }
+.sm-cont .contenedor-sobremi .datos-personales{
+    width: 100%;
+}
 .sm-cont .contenedor-sobremi .datos-personales h3{
     font-family: 'Righteous';
 }
+
 .sobremi .sm-cont .contenedor-sobremi .datos-personales .datos ul li{
     text-decoration: none;
     list-style-type: none;;
@@ -152,12 +159,12 @@ background-color:#1CB698;
     font-weight: normal;
 }
 .sobremi .sm-cont .contenedor-sobremi .datos-personales .datos ul li p{
-    font-size: 15;
+    width: 100%;
 }
 .sobremi .sm-cont .intereses-personales{
     width: 45%;
-    margin: 15px;
-    padding: 15px;
+    margin:10px;
+    padding: 10px;
     border: 5px solid #1CB698;
     border-radius: 20px;
     justify-content: center;
@@ -169,7 +176,7 @@ background-color:#1CB698;
 
 }
 .sobremi .sm-cont .intereses-personales .contenedor-intereses{
-    padding-top:15%;
+    margin-top:15%;
     font-size: 20px;
     font-family: 'Righteous';
     display: flex;
@@ -180,13 +187,13 @@ background-color:#1CB698;
 
 }
 .sobremi .sm-cont .intereses-personales .contenedor-intereses .intereses{
+    margin: 10px;
     display: flex;
     flex-direction: column;
     width: 130px;
     height: 130px;
     background-color: #252A2E;
     border-radius: 10px;
-    margin: 0 15px 15px 0;
     align-items: center;
     justify-content: center;
     transition: .3s;
@@ -251,7 +258,7 @@ background-color:#1CB698;
 
 @media screen and (max-width:980px){
     .sobremi .sm-cont .intereses-personales{
-        
+        padding: 5px;
         width: auto;
     }
     .sobremi .sm-cont .intereses-personales .contenedor-intereses .intereses{
@@ -271,7 +278,7 @@ background-color:#1CB698;
    }
    .skills .contenedor-skills{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: auto;
@@ -284,7 +291,7 @@ background-color:#1CB698;
 
 }
 .skills .contenedor-skills .contenedor-logo > strong{
-    width: 100%;
+
     font-size: 12px;
     padding: 0px;
     align-items: center;
@@ -293,19 +300,44 @@ background-color:#1CB698;
    
 }
 
-@media screen and (max-width:400px){
-    .sobremi .sm-cont .intereses-personales .contenedor-intereses .intereses{
-        height: 100px;
-        width: 100px;
+@media screen and (max-width:380px){
+    .sobremi .sm-cont {
+        width: 100%;
     }
+    
+    .sobremi .sm-cont .contenedor-sobremi{
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    
+    }
+    .sobremi .sm-cont .contenedor-sobremi .datos-personales{
+        width: 100%;
+        
+    }
+    .sobremi .sm-cont .intereses-personales{
+        width:100%;
+    }
+    .sobremi .sm-cont .intereses-personales .contenedor-intereses{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .sobremi .sm-cont .intereses-personales .contenedor-intereses .intereses{
+        height: 90px;
+        width: 90px;
+    }
+    
     .skills .contenedor-skills{
-        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
     }
     .skills .contenedor-skills .contenedor-logo{
-        
-        height: 100px;
-        width: 100px;
-
+        height: 90px;
+        width: 90px;
+    }
+    .sobremi .sm-cont .contenedor-sobremi .datos-personales .datos ul li > p{
+        width: 100%;
     }
    
 
