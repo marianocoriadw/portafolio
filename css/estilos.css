@@ -3,11 +3,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration:none;
 }
 .index {
     background-color: #1e2326;
     top: 0;
-    text-decoration:none;
+    
 }
 .index .headerHome {   
     position: fixed;
@@ -30,9 +31,9 @@ background-color:#1CB698;
     font-size: 36px;
     color: #1CB698;
     text-decoration:none;
-    transition: .5s;
 
 }
+
 .index .headerHome nav .navbar .container-fluid .collapse .navbar-nav{
     margin-top: 0;
     width: 100%;
