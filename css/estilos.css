@@ -131,6 +131,10 @@ background-color:#1CB698;
     border: 5px solid #1CB698;
     border-radius: 20px;
 }
+.sm-cont .contenedor-sobremi .datos-personales{
+    width: 100%;
+    text-align: center;
+}
 
 .sobremi .sm-cont .contenedor-sobremi p{
     font-size: 20px;
@@ -140,9 +144,7 @@ background-color:#1CB698;
 .sobremi .sm-cont .contenedor-sobremi p span {
     color: #1CB698;
 }
-.sm-cont .contenedor-sobremi .datos-personales{
-    width: 100%;
-}
+
 .sm-cont .contenedor-sobremi .datos-personales h3{
     font-family: 'Righteous';
 }
