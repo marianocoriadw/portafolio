@@ -55,7 +55,7 @@ background-color:#1CB698;
 /* seccion Inicio */
 .inicio {
     height: 100vh;
-    background-image: url(../img/fondo.jpg);
+    background-image: url(../img/fondo.png);
     background-size: cover;
     padding: 10px;
 }
